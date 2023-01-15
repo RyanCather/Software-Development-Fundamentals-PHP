@@ -7,7 +7,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<h1>Heading</h1>
+<h1>Contact Us</h1>
 
 <div class="container-fluid">
     <form action="contact.php" method="post">
