@@ -8,14 +8,17 @@ function footer(): string
     return $footer;
 }
 
+function sanitiseData($unsanitisedData)
+{
+    $unsanitisedData = trim($unsanitisedData);
+    $unsanitisedData = stripslashes($unsanitisedData);
+    $sanitisedData = htmlspecialchars($unsanitisedData);
+    return $sanitisedData;
+}
 
 ?>
 
 
-<!--function sanitiseData($unsanitisedData)-->
-<!--{-->
-<!--    $unsanitisedData = trim($unsanitisedData);-->
-<!--    $unsanitisedData = stripslashes($unsanitisedData);-->
-<!--    $sanitisedData = htmlspecialchars($unsanitisedData);-->
-<!--    return $sanitisedData;-->
-<!--}-->
+
+
+
