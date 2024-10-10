@@ -10,7 +10,7 @@
 <body>
 <h1>Heading</h1>
 
-
+<!-- <?php echo phpinfo(); ?> -->
 <?php echo footer() ?>
 </body>
 <script src="js/bootstrap.bundle.min.js" ></script>
